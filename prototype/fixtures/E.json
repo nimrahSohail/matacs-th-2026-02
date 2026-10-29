@@ -1,0 +1,65 @@
+{
+  "proposal_id": "E",
+  "quotes_omitted": "Hand-derived from the brief. Verbatim quotes are not stored in the repo (the brief says not to copy proposal text); live mode produces and verifies them.",
+  "embedded_instructions": [],
+  "notes": [],
+  "facts": {
+    "licence_held_by_bidder": {
+      "value": true,
+      "quote": null
+    },
+    "licence_number": {
+      "value": "ECRA/ESA #7003456",
+      "quote": null
+    },
+    "wsib_clearance_confirmed": {
+      "value": true,
+      "quote": null
+    },
+    "liability_insurance_cad": {
+      "value": 5000000,
+      "quote": null
+    },
+    "qualifying_installs_count": {
+      "value": 8,
+      "quote": null
+    },
+    "experience_earliest_year": {
+      "value": 2021,
+      "quote": null
+    },
+    "total_price_cad": {
+      "value": 242500,
+      "quote": null
+    },
+    "completion_weeks": {
+      "value": 13,
+      "quote": null
+    },
+    "panel_warranty_years": {
+      "value": 25,
+      "quote": null
+    },
+    "workmanship_warranty_years": {
+      "value": 12,
+      "quote": null
+    },
+    "named_project_lead": {
+      "value": true,
+      "quote": null
+    },
+    "crew_described": {
+      "value": true,
+      "quote": null
+    },
+    "safety_plan": {
+      "value": true,
+      "quote": null
+    },
+    "performance_monitoring_plan": {
+      "value": true,
+      "quote": null,
+      "note": "24 months performance monitoring."
+    }
+  }
+}

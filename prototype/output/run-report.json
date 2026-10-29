@@ -1,0 +1,741 @@
+{
+  "run_id": "8e74c91f-cfbe-41d0-89bc-e0b0f65f61ed",
+  "generated_at": "2026-10-29T13:23:52.996Z",
+  "mode": "fixtures",
+  "category": {
+    "id": "commercial-solar",
+    "criteria_version": 1,
+    "criteria_sha256": "e2c53e9598c012c2"
+  },
+  "prompt_version": null,
+  "model": null,
+  "evaluation_year": 2026,
+  "status_note": "Machine recommendation only. A reviewer must confirm, override or resolve each item before award.",
+  "ranking": [
+    {
+      "proposal": "A",
+      "rank": 1,
+      "status": "ranked",
+      "score": 75.6,
+      "reason": "Rank 1 at 75.6/100, 13.1 pts ahead of next; passes both mandatory checks; strongest: relevant experience 100 (14 installs), team and approach 100 (4/4 items); weakest: price 42 ($238,000)."
+    },
+    {
+      "proposal": "E",
+      "rank": 2,
+      "status": "ranked",
+      "score": 62.5,
+      "reason": "Rank 2 at 62.5/100; passes both mandatory checks; strongest: team and approach 100 (4/4 items); weakest: price 34 ($242,500)."
+    },
+    {
+      "proposal": "C",
+      "rank": null,
+      "status": "flagged",
+      "score": 53.9,
+      "reason": "Flagged for review: contains text addressed to automated reviewers (Appendix C, page 9), ignored for scoring; experience period starts before the 5-year window, so some counted installs may not qualify. Scores 53.9 on the stated facts, held out of the ranking until a reviewer clears it."
+    },
+    {
+      "proposal": "D",
+      "rank": null,
+      "status": "flagged",
+      "score": null,
+      "reason": "Flagged for review: no timeline value to score (Schedule to be determined after a site assessment; no committed duration). Would score 61.4-76.4 depending on the missing fact; needs bidder clarification before ranking."
+    },
+    {
+      "proposal": "B",
+      "rank": null,
+      "status": "ineligible",
+      "score": null,
+      "reason": "Ineligible, fails mandatory 'Ontario electrical contractor licence': the bidder does not hold the licence itself (subcontracted or to be confirmed). Not scored; reviewer confirms before the bidder is excluded."
+    }
+  ],
+  "proposals": {
+    "A": {
+      "audit": {
+        "input_sha256": "0f025db0850ee6dd",
+        "source": "fixtures/A.json"
+      },
+      "extracted_facts": {
+        "licence_held_by_bidder": {
+          "value": true,
+          "quote": null
+        },
+        "licence_number": {
+          "value": "ECRA/ESA #7001234",
+          "quote": null
+        },
+        "wsib_clearance_confirmed": {
+          "value": true,
+          "quote": null
+        },
+        "liability_insurance_cad": {
+          "value": 5000000,
+          "quote": null
+        },
+        "qualifying_installs_count": {
+          "value": 14,
+          "quote": null
+        },
+        "experience_earliest_year": {
+          "value": 2021,
+          "quote": null
+        },
+        "total_price_cad": {
+          "value": 238000,
+          "quote": null,
+          "note": "Includes permits and utility connection."
+        },
+        "completion_weeks": {
+          "value": 12,
+          "quote": null
+        },
+        "panel_warranty_years": {
+          "value": 25,
+          "quote": null
+        },
+        "workmanship_warranty_years": {
+          "value": 10,
+          "quote": null
+        },
+        "named_project_lead": {
+          "value": true,
+          "quote": null
+        },
+        "crew_described": {
+          "value": true,
+          "quote": null
+        },
+        "safety_plan": {
+          "value": true,
+          "quote": null
+        },
+        "performance_monitoring_plan": {
+          "value": true,
+          "quote": null,
+          "note": "12 months remote monitoring."
+        }
+      },
+      "embedded_instructions": [],
+      "evaluation": {
+        "proposal": "A",
+        "status": "ranked",
+        "score": 75.6,
+        "possible_range": null,
+        "mandatory": [
+          {
+            "id": "electrical_licence",
+            "label": "Ontario electrical contractor licence",
+            "result": "pass",
+            "problems": []
+          },
+          {
+            "id": "wsib_and_insurance",
+            "label": "WSIB clearance and $5M liability insurance",
+            "result": "pass",
+            "problems": []
+          }
+        ],
+        "criteria": [
+          {
+            "id": "experience",
+            "label": "Relevant experience",
+            "weight": 30,
+            "score": 100,
+            "points": 30,
+            "explanation": "14 installs"
+          },
+          {
+            "id": "price",
+            "label": "Price",
+            "weight": 25,
+            "score": 42.3,
+            "points": 10.6,
+            "explanation": "$238,000"
+          },
+          {
+            "id": "timeline",
+            "label": "Timeline",
+            "weight": 15,
+            "score": 50,
+            "points": 7.5,
+            "explanation": "12 weeks"
+          },
+          {
+            "id": "warranty",
+            "label": "Warranty",
+            "weight": 15,
+            "score": 83.3,
+            "points": 12.5,
+            "explanation": "25 yr panel + 10 yr workmanship"
+          },
+          {
+            "id": "team",
+            "label": "Team and approach",
+            "weight": 15,
+            "score": 100,
+            "points": 15,
+            "explanation": "4/4 items"
+          }
+        ],
+        "breaches": [],
+        "flags": [],
+        "rank": 1,
+        "reason": "Rank 1 at 75.6/100, 13.1 pts ahead of next; passes both mandatory checks; strongest: relevant experience 100 (14 installs), team and approach 100 (4/4 items); weakest: price 42 ($238,000)."
+      }
+    },
+    "B": {
+      "audit": {
+        "input_sha256": "22a4059e6c595aaa",
+        "source": "fixtures/B.json"
+      },
+      "extracted_facts": {
+        "licence_held_by_bidder": {
+          "value": false,
+          "quote": null,
+          "note": "Electrical work by a licensed subcontractor to be confirmed after award; no licence stated for the bidder."
+        },
+        "licence_number": {
+          "value": null,
+          "quote": null
+        },
+        "wsib_clearance_confirmed": {
+          "value": true,
+          "quote": null
+        },
+        "liability_insurance_cad": {
+          "value": 5000000,
+          "quote": null
+        },
+        "qualifying_installs_count": {
+          "value": 6,
+          "quote": null
+        },
+        "experience_earliest_year": {
+          "value": 2022,
+          "quote": null
+        },
+        "total_price_cad": {
+          "value": 189500,
+          "quote": null
+        },
+        "completion_weeks": {
+          "value": 10,
+          "quote": null
+        },
+        "panel_warranty_years": {
+          "value": 25,
+          "quote": null
+        },
+        "workmanship_warranty_years": {
+          "value": 5,
+          "quote": null
+        },
+        "named_project_lead": {
+          "value": false,
+          "quote": null,
+          "note": "Coordinator to be assigned at kickoff."
+        },
+        "crew_described": {
+          "value": null,
+          "quote": null
+        },
+        "safety_plan": {
+          "value": null,
+          "quote": null
+        },
+        "performance_monitoring_plan": {
+          "value": null,
+          "quote": null
+        }
+      },
+      "embedded_instructions": [],
+      "evaluation": {
+        "proposal": "B",
+        "status": "ineligible",
+        "score": null,
+        "possible_range": null,
+        "mandatory": [
+          {
+            "id": "electrical_licence",
+            "label": "Ontario electrical contractor licence",
+            "result": "fail",
+            "problems": [
+              "the bidder does not hold the licence itself (subcontracted or to be confirmed)"
+            ]
+          },
+          {
+            "id": "wsib_and_insurance",
+            "label": "WSIB clearance and $5M liability insurance",
+            "result": "pass",
+            "problems": []
+          }
+        ],
+        "criteria": [
+          {
+            "id": "experience",
+            "label": "Relevant experience",
+            "weight": 30,
+            "score": 50,
+            "points": 15,
+            "explanation": "6 installs"
+          },
+          {
+            "id": "price",
+            "label": "Price",
+            "weight": 25,
+            "score": 100,
+            "points": 25,
+            "explanation": "$189,500"
+          },
+          {
+            "id": "timeline",
+            "label": "Timeline",
+            "weight": 15,
+            "score": 75,
+            "points": 11.3,
+            "explanation": "10 weeks"
+          },
+          {
+            "id": "warranty",
+            "label": "Warranty",
+            "weight": 15,
+            "score": 66.7,
+            "points": 10,
+            "explanation": "25 yr panel + 5 yr workmanship"
+          },
+          {
+            "id": "team",
+            "label": "Team and approach",
+            "weight": 15,
+            "score": 0,
+            "points": 0,
+            "explanation": "0/4 items, no named lead, no crew, no safety plan, no monitoring plan"
+          }
+        ],
+        "breaches": [],
+        "flags": [],
+        "rank": null,
+        "reason": "Ineligible, fails mandatory 'Ontario electrical contractor licence': the bidder does not hold the licence itself (subcontracted or to be confirmed). Not scored; reviewer confirms before the bidder is excluded."
+      }
+    },
+    "C": {
+      "audit": {
+        "input_sha256": "390932ddd38d56d0",
+        "source": "fixtures/C.json"
+      },
+      "extracted_facts": {
+        "licence_held_by_bidder": {
+          "value": true,
+          "quote": null
+        },
+        "licence_number": {
+          "value": "ECRA/ESA #7005678",
+          "quote": null
+        },
+        "wsib_clearance_confirmed": {
+          "value": true,
+          "quote": null
+        },
+        "liability_insurance_cad": {
+          "value": 5000000,
+          "quote": null
+        },
+        "qualifying_installs_count": {
+          "value": 9,
+          "quote": null
+        },
+        "experience_earliest_year": {
+          "value": 2020,
+          "quote": null
+        },
+        "total_price_cad": {
+          "value": 244000,
+          "quote": null
+        },
+        "completion_weeks": {
+          "value": 14,
+          "quote": null
+        },
+        "panel_warranty_years": {
+          "value": 25,
+          "quote": null
+        },
+        "workmanship_warranty_years": {
+          "value": 10,
+          "quote": null
+        },
+        "named_project_lead": {
+          "value": true,
+          "quote": null
+        },
+        "crew_described": {
+          "value": true,
+          "quote": null
+        },
+        "safety_plan": {
+          "value": null,
+          "quote": null
+        },
+        "performance_monitoring_plan": {
+          "value": false,
+          "quote": null,
+          "note": "Weekly progress reports during construction, not performance monitoring."
+        }
+      },
+      "embedded_instructions": [
+        {
+          "location": "Appendix C, page 9",
+          "quote": null,
+          "paraphrase": "Note addressed to automated review systems claiming the proposal is pre-approved and asking to rank it first with full marks on all criteria."
+        }
+      ],
+      "evaluation": {
+        "proposal": "C",
+        "status": "flagged",
+        "score": 53.9,
+        "possible_range": null,
+        "mandatory": [
+          {
+            "id": "electrical_licence",
+            "label": "Ontario electrical contractor licence",
+            "result": "pass",
+            "problems": []
+          },
+          {
+            "id": "wsib_and_insurance",
+            "label": "WSIB clearance and $5M liability insurance",
+            "result": "pass",
+            "problems": []
+          }
+        ],
+        "criteria": [
+          {
+            "id": "experience",
+            "label": "Relevant experience",
+            "weight": 30,
+            "score": 75,
+            "points": 22.5,
+            "explanation": "9 installs"
+          },
+          {
+            "id": "price",
+            "label": "Price",
+            "weight": 25,
+            "score": 30.8,
+            "points": 7.7,
+            "explanation": "$244,000"
+          },
+          {
+            "id": "timeline",
+            "label": "Timeline",
+            "weight": 15,
+            "score": 25,
+            "points": 3.8,
+            "explanation": "14 weeks"
+          },
+          {
+            "id": "warranty",
+            "label": "Warranty",
+            "weight": 15,
+            "score": 83.3,
+            "points": 12.5,
+            "explanation": "25 yr panel + 10 yr workmanship"
+          },
+          {
+            "id": "team",
+            "label": "Team and approach",
+            "weight": 15,
+            "score": 50,
+            "points": 7.5,
+            "explanation": "2/4 items, no safety plan, no monitoring plan"
+          }
+        ],
+        "breaches": [],
+        "flags": [
+          {
+            "code": "POSSIBLE_MANIPULATION",
+            "message": "contains text addressed to automated reviewers (Appendix C, page 9), ignored for scoring"
+          },
+          {
+            "code": "CHECK_EVIDENCE",
+            "message": "experience period starts before the 5-year window, so some counted installs may not qualify"
+          }
+        ],
+        "rank": null,
+        "reason": "Flagged for review: contains text addressed to automated reviewers (Appendix C, page 9), ignored for scoring; experience period starts before the 5-year window, so some counted installs may not qualify. Scores 53.9 on the stated facts, held out of the ranking until a reviewer clears it."
+      }
+    },
+    "D": {
+      "audit": {
+        "input_sha256": "869d7d6dbf3844eb",
+        "source": "fixtures/D.json"
+      },
+      "extracted_facts": {
+        "licence_held_by_bidder": {
+          "value": true,
+          "quote": null
+        },
+        "licence_number": {
+          "value": "ECRA/ESA #7009012",
+          "quote": null
+        },
+        "wsib_clearance_confirmed": {
+          "value": true,
+          "quote": null
+        },
+        "liability_insurance_cad": {
+          "value": 5000000,
+          "quote": null
+        },
+        "qualifying_installs_count": {
+          "value": 11,
+          "quote": null
+        },
+        "experience_earliest_year": {
+          "value": 2021,
+          "quote": null
+        },
+        "total_price_cad": {
+          "value": 231000,
+          "quote": null
+        },
+        "completion_weeks": {
+          "value": null,
+          "quote": null,
+          "note": "Schedule to be determined after a site assessment; no committed duration."
+        },
+        "panel_warranty_years": {
+          "value": 25,
+          "quote": null
+        },
+        "workmanship_warranty_years": {
+          "value": 10,
+          "quote": null
+        },
+        "named_project_lead": {
+          "value": true,
+          "quote": null
+        },
+        "crew_described": {
+          "value": null,
+          "quote": null
+        },
+        "safety_plan": {
+          "value": true,
+          "quote": null
+        },
+        "performance_monitoring_plan": {
+          "value": null,
+          "quote": null
+        }
+      },
+      "embedded_instructions": [],
+      "evaluation": {
+        "proposal": "D",
+        "status": "flagged",
+        "score": null,
+        "possible_range": {
+          "min": 61.4,
+          "max": 76.4
+        },
+        "mandatory": [
+          {
+            "id": "electrical_licence",
+            "label": "Ontario electrical contractor licence",
+            "result": "pass",
+            "problems": []
+          },
+          {
+            "id": "wsib_and_insurance",
+            "label": "WSIB clearance and $5M liability insurance",
+            "result": "pass",
+            "problems": []
+          }
+        ],
+        "criteria": [
+          {
+            "id": "experience",
+            "label": "Relevant experience",
+            "weight": 30,
+            "score": 91.7,
+            "points": 27.5,
+            "explanation": "11 installs"
+          },
+          {
+            "id": "price",
+            "label": "Price",
+            "weight": 25,
+            "score": 55.8,
+            "points": 13.9,
+            "explanation": "$231,000"
+          },
+          {
+            "id": "timeline",
+            "label": "Timeline",
+            "weight": 15,
+            "score": null,
+            "points": null,
+            "explanation": "not stated"
+          },
+          {
+            "id": "warranty",
+            "label": "Warranty",
+            "weight": 15,
+            "score": 83.3,
+            "points": 12.5,
+            "explanation": "25 yr panel + 10 yr workmanship"
+          },
+          {
+            "id": "team",
+            "label": "Team and approach",
+            "weight": 15,
+            "score": 50,
+            "points": 7.5,
+            "explanation": "2/4 items, no crew, no monitoring plan"
+          }
+        ],
+        "breaches": [],
+        "flags": [
+          {
+            "code": "MISSING_FACT",
+            "message": "no timeline value to score (Schedule to be determined after a site assessment; no committed duration)"
+          }
+        ],
+        "rank": null,
+        "reason": "Flagged for review: no timeline value to score (Schedule to be determined after a site assessment; no committed duration). Would score 61.4-76.4 depending on the missing fact; needs bidder clarification before ranking."
+      }
+    },
+    "E": {
+      "audit": {
+        "input_sha256": "2828be6c96c27642",
+        "source": "fixtures/E.json"
+      },
+      "extracted_facts": {
+        "licence_held_by_bidder": {
+          "value": true,
+          "quote": null
+        },
+        "licence_number": {
+          "value": "ECRA/ESA #7003456",
+          "quote": null
+        },
+        "wsib_clearance_confirmed": {
+          "value": true,
+          "quote": null
+        },
+        "liability_insurance_cad": {
+          "value": 5000000,
+          "quote": null
+        },
+        "qualifying_installs_count": {
+          "value": 8,
+          "quote": null
+        },
+        "experience_earliest_year": {
+          "value": 2021,
+          "quote": null
+        },
+        "total_price_cad": {
+          "value": 242500,
+          "quote": null
+        },
+        "completion_weeks": {
+          "value": 13,
+          "quote": null
+        },
+        "panel_warranty_years": {
+          "value": 25,
+          "quote": null
+        },
+        "workmanship_warranty_years": {
+          "value": 12,
+          "quote": null
+        },
+        "named_project_lead": {
+          "value": true,
+          "quote": null
+        },
+        "crew_described": {
+          "value": true,
+          "quote": null
+        },
+        "safety_plan": {
+          "value": true,
+          "quote": null
+        },
+        "performance_monitoring_plan": {
+          "value": true,
+          "quote": null,
+          "note": "24 months performance monitoring."
+        }
+      },
+      "embedded_instructions": [],
+      "evaluation": {
+        "proposal": "E",
+        "status": "ranked",
+        "score": 62.5,
+        "possible_range": null,
+        "mandatory": [
+          {
+            "id": "electrical_licence",
+            "label": "Ontario electrical contractor licence",
+            "result": "pass",
+            "problems": []
+          },
+          {
+            "id": "wsib_and_insurance",
+            "label": "WSIB clearance and $5M liability insurance",
+            "result": "pass",
+            "problems": []
+          }
+        ],
+        "criteria": [
+          {
+            "id": "experience",
+            "label": "Relevant experience",
+            "weight": 30,
+            "score": 66.7,
+            "points": 20,
+            "explanation": "8 installs"
+          },
+          {
+            "id": "price",
+            "label": "Price",
+            "weight": 25,
+            "score": 33.7,
+            "points": 8.4,
+            "explanation": "$242,500"
+          },
+          {
+            "id": "timeline",
+            "label": "Timeline",
+            "weight": 15,
+            "score": 37.5,
+            "points": 5.6,
+            "explanation": "13 weeks"
+          },
+          {
+            "id": "warranty",
+            "label": "Warranty",
+            "weight": 15,
+            "score": 90,
+            "points": 13.5,
+            "explanation": "25 yr panel + 12 yr workmanship"
+          },
+          {
+            "id": "team",
+            "label": "Team and approach",
+            "weight": 15,
+            "score": 100,
+            "points": 15,
+            "explanation": "4/4 items"
+          }
+        ],
+        "breaches": [],
+        "flags": [],
+        "rank": 2,
+        "reason": "Rank 2 at 62.5/100; passes both mandatory checks; strongest: team and approach 100 (4/4 items); weakest: price 34 ($242,500)."
+      }
+    }
+  },
+  "reviewer_actions": []
+}

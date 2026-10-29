@@ -1,0 +1,66 @@
+{
+  "proposal_id": "B",
+  "quotes_omitted": "Hand-derived from the brief. Verbatim quotes are not stored in the repo (the brief says not to copy proposal text); live mode produces and verifies them.",
+  "embedded_instructions": [],
+  "notes": [],
+  "facts": {
+    "licence_held_by_bidder": {
+      "value": false,
+      "quote": null,
+      "note": "Electrical work by a licensed subcontractor to be confirmed after award; no licence stated for the bidder."
+    },
+    "licence_number": {
+      "value": null,
+      "quote": null
+    },
+    "wsib_clearance_confirmed": {
+      "value": true,
+      "quote": null
+    },
+    "liability_insurance_cad": {
+      "value": 5000000,
+      "quote": null
+    },
+    "qualifying_installs_count": {
+      "value": 6,
+      "quote": null
+    },
+    "experience_earliest_year": {
+      "value": 2022,
+      "quote": null
+    },
+    "total_price_cad": {
+      "value": 189500,
+      "quote": null
+    },
+    "completion_weeks": {
+      "value": 10,
+      "quote": null
+    },
+    "panel_warranty_years": {
+      "value": 25,
+      "quote": null
+    },
+    "workmanship_warranty_years": {
+      "value": 5,
+      "quote": null
+    },
+    "named_project_lead": {
+      "value": false,
+      "quote": null,
+      "note": "Coordinator to be assigned at kickoff."
+    },
+    "crew_described": {
+      "value": null,
+      "quote": null
+    },
+    "safety_plan": {
+      "value": null,
+      "quote": null
+    },
+    "performance_monitoring_plan": {
+      "value": null,
+      "quote": null
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "proposal": "A",
+    "rank": 1,
+    "status": "ranked",
+    "score": 75.6,
+    "reason": "Rank 1 at 75.6/100, 13.1 pts ahead of next; passes both mandatory checks; strongest: relevant experience 100 (14 installs), team and approach 100 (4/4 items); weakest: price 42 ($238,000)."
+  },
+  {
+    "proposal": "E",
+    "rank": 2,
+    "status": "ranked",
+    "score": 62.5,
+    "reason": "Rank 2 at 62.5/100; passes both mandatory checks; strongest: team and approach 100 (4/4 items); weakest: price 34 ($242,500)."
+  },
+  {
+    "proposal": "C",
+    "rank": null,
+    "status": "flagged",
+    "score": 53.9,
+    "reason": "Flagged for review: contains text addressed to automated reviewers (Appendix C, page 9), ignored for scoring; experience period starts before the 5-year window, so some counted installs may not qualify. Scores 53.9 on the stated facts, held out of the ranking until a reviewer clears it."
+  },
+  {
+    "proposal": "D",
+    "rank": null,
+    "status": "flagged",
+    "score": null,
+    "reason": "Flagged for review: no timeline value to score (Schedule to be determined after a site assessment; no committed duration). Would score 61.4-76.4 depending on the missing fact; needs bidder clarification before ranking."
+  },
+  {
+    "proposal": "B",
+    "rank": null,
+    "status": "ineligible",
+    "score": null,
+    "reason": "Ineligible, fails mandatory 'Ontario electrical contractor licence': the bidder does not hold the licence itself (subcontracted or to be confirmed). Not scored; reviewer confirms before the bidder is excluded."
+  }
+]
